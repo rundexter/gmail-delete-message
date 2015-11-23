@@ -11,9 +11,10 @@
         {
             "id": "userId",
             "title":"The user's email address"
-        },
+        }
     ],
     //Required. Outputs the module emits.
     "outputs": [],
-    "title": "Google Delete Message" /* Required.A display name for the module */
+    /* Required.A display name for the module */
+    "title": "Google Delete Message"
 }
