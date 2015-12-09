@@ -15,6 +15,7 @@
     ],
     //Required. Outputs the module emits.
     "outputs": [],
+    "icon": "google-plus",
     /* Required.A display name for the module */
     "title": "Google Delete Message"
 }
