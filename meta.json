@@ -2,7 +2,6 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
         {
             "id": "id",
@@ -13,9 +12,20 @@
             "title":"The user's email address"
         }
     ],
-    //Required. Outputs the module emits.
-    "outputs": [],
+    "outputs": [
+        {
+            "id": "success",
+            "title": "Success"
+        }
+    ],
+    "providers": [{
+        "name": "google",
+        "scopes": [
+            "https://mail.google.com/",
+            "https://www.googleapis.com/auth/gmail.modify",
+            "https://www.googleapis.com/auth/gmail.labels"
+        ]
+    }],
     "icon": "google-plus",
-    /* Required.A display name for the module */
     "title": "Google Delete Message"
 }
