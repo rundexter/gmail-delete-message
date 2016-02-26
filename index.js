@@ -1,6 +1,5 @@
 var _ = require('lodash'),
     Q = require( 'q' ),
-    util = require('./util.js'),
     google = require('googleapis'),
     service = google.gmail('v1');
 
